@@ -1,0 +1,163 @@
+@font-face {
+    font-family: "marioo";
+    src: url(Font/SuperMario256.ttf);
+}
+
+*{
+    font-family: marioo;
+}
+
+.master{
+    position: absolute;
+}
+
+
+
+.texto{
+    font-size: 60px;
+    position: absolute;
+    margin-top: -1200px;
+    margin-left: 300px;
+    color: #98202B;
+}
+
+.estrella img{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    margin-top: -580px;
+    margin-left: 450px;
+    z-index: 1;
+}
+
+.caricatura{
+    background-image: url(img/fondo.jpg);
+    width: 700px;
+    height: 500px;
+    border-style: double;
+    border-width: 5px;
+    position: absolute;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-top: -840px;
+    margin-left: 600px;
+    border-color: red;
+}
+
+.caja{
+    height: 100px;
+    width: 200px;
+    background-color: rgb(255, 149, 0);
+    position: relative;
+    margin-top: 50px;
+    margin-left: 50px;
+    float: inline-start;
+    border-radius: 20px;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+
+}
+
+.ct{
+    margin-top: 20px;
+}
+.tachuela1{
+    position: absolute;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+    z-index: 1;
+}
+
+.tachuela2{
+    position: absolute;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-left: 170px;
+    z-index: 1;
+}
+
+.tachuela3{
+    position: relative;
+    border-radius: 10px;
+    margin-top: 0px;
+    margin-left: -160px;
+    z-index: 1;
+}
+
+.tachuela4{
+    position: relative;
+    border-radius: 20px;
+    margin-top: -25px;
+    margin-left: 160px;
+    z-index: 1;
+}
+
+
+
+.mario img{
+    height: 200px;
+    width: 200px;
+    margin-top: 180px;
+}
+
+
+.logo img{
+    width: 250px;
+    height: 300px;
+    margin-left: 250px;
+    margin-top: -100px;
+}
+
+.yoshi img{
+    height: 255px;
+    width: 340px;
+    margin-top: -382px;
+    margin-left: 1500px;
+    position: absolute;
+}
+
+.cuadro{
+    height: 100px;
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    margin-top: -300px;
+    margin-left: 1300px;
+    float: inline-start;
+    border-radius: 20px;
+    font-size: 25px;
+    color: brown;
+    text-align: center;
+    border-style: solid;
+    border-width: 5px;
+    border-color: brown;
+    font-family: "marioo";
+}
+
+
+
+.drop:hover { 
+    filter: drop-shadow(0 10px 10px rgb(0, 0, 0)); 
+    transition: 1s;
+}
+
+.drop2:hover { 
+    filter: drop-shadow(0 10px 10px rgb(0, 0, 0)); 
+    transition: 1s;
+}
+
+.cuadro:hover{
+    background-color: brown;
+    color: white;
+
+
+}
+/* Cuando se pase el ratón por encima de la estrella, crear un efecto de sombreado sobre la figura:
+0,5 puntos
+12- Cuando se pase el ratón por encima de Mario, crear un efecto de sombreado sobre la figura: 0,75
+puntos
+13- Cuando se pase el ratón por encima de la caja del texto de “Creado por…
+”, el color de fondo
+deberá cambiar a Brown, y el color de la tipografía a Blanco: 0,75 puntos. */
